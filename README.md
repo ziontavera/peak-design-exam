@@ -9,10 +9,12 @@ update the product’s inventory, and retrieve product information.
 ## Setup
 1. Create virtual environment
  - `python -m venv {venv_name}`
-    - make sure python is installed
+    - make sure python and pip is installed
+
 2. Install Dependencies
- - install django
- - install djangorestframework
+ - `pip install django`
+ - `pip install djangorestframework`
+ 
 3. Run server
  - `python manage.py runserver`
 
